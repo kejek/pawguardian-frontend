@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from 'next/link'
 import { SiFacebook, SiX, SiInstagram } from '@icons-pack/react-simple-icons';
 
 export function Footer() {

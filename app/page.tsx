@@ -1,9 +1,10 @@
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Search, Heart } from "lucide-react"
-import { Header } from "@/components/Header"
-import { Footer } from "@/components/Footer"
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
+import { Search, Heart } from 'lucide-react'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+import Image from 'next/image'
 
 export default function DogAdoptionPlatform() {
   return (
@@ -39,23 +40,23 @@ export default function DogAdoptionPlatform() {
             <div className="flex justify-center">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl">
                 {[
-                  { name: "Max", breed: "Labrador", age: 3, image: "/placeholder.svg?height=200&width=200" },
-                  { name: "Bella", breed: "German Shepherd", age: 2, image: "/placeholder.svg?height=200&width=200" },
-                  { name: "Charlie", breed: "Golden Retriever", age: 4, image: "/placeholder.svg?height=200&width=200" },
+                  { name: 'Max', breed: 'Labrador', age: 3, image: '/placeholder.svg?height=200&width=200' },
+                  { name: 'Bella', breed: 'German Shepherd', age: 2, image: '/placeholder.svg?height=200&width=200' },
+                  { name: 'Charlie', breed: 'Golden Retriever', age: 4, image: '/placeholder.svg?height=200&width=200' },
                 ].map((dog) => (
                   <Card key={dog.name}>
                     <CardHeader>
                       <CardTitle>{dog.name}</CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <img
+                      <Image
                         alt={`${dog.name} the ${dog.breed}`}
                         className="w-full h-48 object-cover mb-4 rounded-md"
                         height="200"
                         src={dog.image}
                         style={{
-                          aspectRatio: "200/200",
-                          objectFit: "cover",
+                          aspectRatio: '200/200',
+                          objectFit: 'cover',
                         }}
                         width="200"
                       />

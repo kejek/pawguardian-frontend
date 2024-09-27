@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Header } from "@/components/Header"
-import { Footer } from "@/components/Footer"
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Textarea } from '@/components/ui/textarea'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 
 export default function ContactPage() {
   return (
@@ -15,7 +15,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-xl font-semibold mb-4">Get in Touch</h2>
               <p className="mb-4">
-                We're here to answer any questions you may have about adopting or fostering a dog. Feel free to reach out
+                We&apos;re here to answer any questions you may have about adopting or fostering a dog. Feel free to reach out
                 to us using the contact form or the information provided.
               </p>
               <div className="space-y-2">

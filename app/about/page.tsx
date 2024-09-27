@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button"
-import Image from "next/image"
-import { Header } from "@/components/Header"
-import { Footer } from "@/components/Footer"
+import { Button } from '@/components/ui/button'
+import Image from 'next/image'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 
 export default function AboutPage() {
   return (
@@ -17,11 +17,11 @@ export default function AboutPage() {
                 pets with caring families and individuals.
               </p>
               <p className="mb-4">
-                Founded in 2024, we've successfully placed over 1,000 dogs in forever homes and provided fostering
+                Founded in 2024, we&apos;ve successfully placed over 1,000 dogs in forever homes and provided fostering
                 opportunities for countless others.
               </p>
               <p className="mb-6">
-                We believe that every dog deserves a chance at happiness, and we're committed to making that happen one
+                We believe that every dog deserves a chance at happiness, and we&apos;re committed to making that happen one
                 adoption at a time.
               </p>
               <Button>
